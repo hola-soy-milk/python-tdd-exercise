@@ -1,0 +1,12 @@
+tasks:
+  - init: |
+      python -m venv venv
+      source venv/bin/activate
+      pip install --upgrade pip wheel setuptools
+      pip install coverage
+  - command: |
+      source venv/bin/activate
+
+vscode:
+  extensions:
+    - ms-python.python
