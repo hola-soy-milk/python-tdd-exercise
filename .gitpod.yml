@@ -4,8 +4,6 @@ tasks:
       source venv/bin/activate
       pip install --upgrade pip wheel setuptools
       pip install coverage
-  - command: |
-      source venv/bin/activate
 
 vscode:
   extensions:
